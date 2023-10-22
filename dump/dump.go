@@ -7,9 +7,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/dongmx/rdb"
+	"github.com/liangjianwen/rdb"
+	"github.com/liangjianwen/rdr/decoder"
 	"github.com/urfave/cli"
-	"github.com/xueqiu/rdr/decoder"
 )
 
 // Dump rdb file statistical information

@@ -12,9 +12,9 @@ import (
 
 	assetfs "github.com/elazarl/go-bindata-assetfs"
 	"github.com/julienschmidt/httprouter"
+	"github.com/liangjianwen/rdr/decoder"
+	"github.com/liangjianwen/rdr/static"
 	"github.com/urfave/cli"
-	"github.com/xueqiu/rdr/decoder"
-	"github.com/xueqiu/rdr/static"
 )
 
 var counters = NewSafeMap()

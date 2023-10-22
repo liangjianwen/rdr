@@ -20,7 +20,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/xueqiu/rdr/decoder"
+	"github.com/liangjianwen/rdr/decoder"
 )
 
 // NewCounter return a pointer of Counter
@@ -94,7 +94,7 @@ func (c *Counter) GetLargestEntries(num int) []*decoder.Entry {
 	return res
 }
 
-//GetLargestKeyPrefixes from heap
+// GetLargestKeyPrefixes from heap
 func (c *Counter) GetLargestKeyPrefixes() []*PrefixEntry {
 	res := []*PrefixEntry{}
 

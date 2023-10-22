@@ -19,8 +19,8 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/dongmx/rdb"
-	"github.com/dongmx/rdb/nopdecoder"
+	"github.com/liangjianwen/rdb"
+	"github.com/liangjianwen/rdb/nopdecoder"
 )
 
 // Entry is info of a redis recored
@@ -41,7 +41,7 @@ type Decoder struct {
 	usedMem int64
 	ctime   int64
 	count   int
-	rdbVer int
+	rdbVer  int
 
 	currentInfo  *rdb.Info
 	currentEntry *Entry
